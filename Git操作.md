@@ -52,6 +52,6 @@ git push -u origin master
 
 #### 重命名文件（包括大小写）[当git上文件名大小写重命名的修改时](https://www.cnblogs.com/samwang88/p/6611947.html)
 
-1. git mv git.md Git.md
+1. git mv git.md(原文件) Git.md(修改后的文件)
 2. commit到本地，然后push到远程仓库
 
