@@ -1,4 +1,6 @@
 
+## [Git教程廖雪峰](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+
 ## 通过命令行创建仓库并提交到远端
 ```
 echo "# git" >> README.md
@@ -29,7 +31,12 @@ git push -u origin master
 
 1. git branch `分支名称dev`
 2. git checkout `分支名称dev`，切换到dev分支
-   创建并切换分支：git checkout -b `分支名称`
+   
+   创建并切换分支：git checkout -b `分支名称`，相当于
+   ```
+	$ git branch dev
+	$ git checkout dev
+   ```
 
 3. git push -u origin `分支名称dev`，提交到远程服务器，并在远程服务器创建分支dev。
 
