@@ -17,6 +17,7 @@ git push -u origin master
 
 #### [git远程分支创建](https://blog.csdn.net/linlin_xia/article/details/53897808)
 
+#### 删除文件所有 rm ./*
 
 ## 添加分支
 
@@ -27,6 +28,8 @@ git push -u origin master
 
 	git branch -a 查看所有分支。其中带有remote的，代表远程分支  
 
+#### 本地创建分支，并提交到服务器
+
 1. git branch `分支名称dev`
 2. git checkout `分支名称dev`，切换到dev分支
    创建+切换分支：git checkout -b `分支名称`
@@ -34,5 +37,7 @@ git push -u origin master
 3. git push -u origin `分支名称dev`，提交到远程服务器，并在远程服务器创建分支dev。
 
 ## 删除分支
+
+
 1. 删除本地分支，git branch -d `分支名称dev`。
 2. 删除远程分支，git push origin --delete `分支名称dev`。
