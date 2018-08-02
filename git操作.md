@@ -36,3 +36,8 @@ git push -u origin master
 ## 删除分支
 1. 删除本地分支，git branch -d `分支名称dev`。
 2. 删除远程分支，git push origin --delete `分支名称dev`。
+
+#### 直接删除远程分支
+1. 查看远程分支 git branch -a
+2. 删除远程分支`dev` git branch -r -d origin/dev
+3. 提交，git push origin :dev
