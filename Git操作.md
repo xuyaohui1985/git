@@ -48,3 +48,7 @@ git push -u origin master
 1. git mv git.md Git.md
 2. commit到本地，然后push到远程仓库
 
+#### 分支操作完成后，合并到主分支
+
+
+
