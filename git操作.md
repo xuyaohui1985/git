@@ -19,9 +19,11 @@ git push -u origin master
 
 
 ## 添加分支
-git branch：查看本地分支
-git branch -r：查看远程分支
-git branch -a 查看所有分支。其中带有remote的，代表远程分支
+	git branch：查看本地分支</br>  
+
+	git branch -r：查看远程分支</br>  
+
+	git branch -a 查看所有分支。其中带有remote的，代表远程分支</br>  
 
 1. git branch `分支名称dev`
 2. git checkout `分支名称dev`，切换到dev分支
