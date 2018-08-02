@@ -29,7 +29,7 @@ git push -u origin master
 
 1. git branch `分支名称dev`
 2. git checkout `分支名称dev`，切换到dev分支
-   创建+切换分支：git checkout -b `分支名称`
+   创建并切换分支：git checkout -b `分支名称`
 
 3. git push -u origin `分支名称dev`，提交到远程服务器，并在远程服务器创建分支dev。
 
