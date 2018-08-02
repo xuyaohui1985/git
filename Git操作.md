@@ -41,3 +41,10 @@ git push -u origin master
 1. 查看远程分支 git branch -a
 2. 删除远程分支`dev` git branch -r -d origin/dev
 3. 提交，git push origin :dev
+
+
+#### 重命名文件（包括大小写）[当git上文件名大小写重命名的修改时](https://www.cnblogs.com/samwang88/p/6611947.html)
+
+1. git mv git.md Git.md
+2. commit到本地，然后push到远程仓库
+
